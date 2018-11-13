@@ -31,10 +31,8 @@ route.get('/list', controller.getList)
 route.post('/addlist', controller.addlist)
 /* 删除数据 */
 route.delete('/dellist', controller.dellist)
-
 /* 搜索数据 */
 route.get('/getSearchData', controller.SearchData)
-
 /* 更新数据 */
 route.put('/updateData', controller.updateDataList)
 
